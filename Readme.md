@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Georgiy  Karasev](https://up.htmlacademy.ru/htmlcss/34/user/2110271).
-* Наставник: `Неизвестно`.
+* Наставник: [Алена Сафьянникова](https://htmlacademy.ru/profile/safyann).
 
 ---
 

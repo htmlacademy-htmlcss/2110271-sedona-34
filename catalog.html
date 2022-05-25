@@ -62,7 +62,45 @@
         <form class="catalog-hotel-filter" action="https://echo/htmlacademy.ru" method="get">
           <fieldset class="catalog-hotel-filter-group">
             <legend class="catalog-hotel-filter-title">Инфраструктура:</legend>
+            <ul class="catalog-hotel-filter-list">
+              <li class="catalog-hotel-filter-item"><label class="control">
+                  <input class="control-input" type="checkbox" name="Бассейн" checked>
+                  Бассейн
+                </label>
+              </li>
+              <li class="catalog-hotel-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Парковка" checked>
+                  Парковка
+                </label>
+              </li>
+              <li class="catalog-hotel-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Wi-Fi">
+                  Wi-Fi
+                </label>
+              </li>
+            </ul>
           </fieldset>
+          <ul class="catalog-hotel-filter-list">
+            <li class="catalog-hotel-filter-item"><label class="control">
+                <input class="control-input" type="radio" name="living-type" value="hotel" checked>
+                Гостиница
+              </label>
+            </li>
+            <li class="catalog-hotel-filter-item">
+              <label class="control">
+                <input class="control-input" type="radio" name="living-type" value="motel">
+                Мотель
+              </label>
+            </li>
+            <li class="catalog-hotel-filter-item">
+              <label class="control">
+                <input class="control-input" type="radio" name="living-type" value="apartment">
+                Апартаменты
+              </label>
+            </li>
+          </ul>
           <fieldset class="catalog-hotel-filter-group">
             <legend class="catalog-hotel-filter-title">Тип жилья:</legend>
           </fieldset>

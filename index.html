@@ -116,20 +116,49 @@
     </section>
     <section class="seach-hotel">
       <h2 class="seach-hotel-title">Заинтересовались?</h2>
-      <p class="seach-hotel-instruction">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц
+      <p class="seach-hotel-instruction">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения
+        гостиниц
         в Седоне</p>
       <button class="seach-hotel-button button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
     </section>
-    <form class="subscribe" action="https://echo/htmlacademy.ru" method="post">
-      <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-      <p class="subscribe-information">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <label for="subscribe-email">Подписаться</label>
-      <input type="text" id="subscribe-email" name="Ваш e-mail" placeholder="Ваш e-mail">
-      <button class="subscribe-button button" type="submit">Подписаться</button>
+    <form class="subscribe-news-form" action="https://echo/htmlacademy.ru" method="post">
+      <h2 class="subscribe-news-title">Подпишитесь на рассылку</h2>
+      <p class="subscribe-news-information">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <p><label for="subscribe-email visually-hidden">Подписаться</label>
+        <input class="field" type="email" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail" required>
+      </p>
+      <button class="button subscribe-button" type="submit">Подписаться</button>
     </form>
   </main>
   <footer class="page-footer">
-<a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    <section class="footer-social">
+      <h2 class="footer-social-title visually-hidden">Социальные сети</h2>
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button" href="https://vk.com/htmlacademy">
+            <span class="visually-hidden">ВКонтакте</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="https://t.me/htmlacademy">
+            <span class="visually-hidden">Телеграм</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+            <span class="visually-hidden">Ютьюб</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="footer-phone">
+      <h2 class="footer-phone-title visually-hidden">Телефон</h2>
+      <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    </section>
+    <section class="footer-htmlacademy-logo">
+      <h2 class="footer-htmlacademy-logo-title visually-hidden">Логотип htmlacademy</h2>
+      <a href="https://htmlacademy.ru/"><img class="footer-htmlacademy-logo" src="" alt="Логотип htmlacademy"></a>
+    </section>
   </footer>
 </body>
 
